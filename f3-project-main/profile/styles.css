@@ -1,0 +1,70 @@
+/* Write your styles here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ /* Global styles */
+ body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Navigation styles */
+  .nav-bar {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  .details{
+    margin: 5rem;
+    margin-bottom: 1rem;
+    
+  }
+  .details input{
+    width: 48rem;
+    height: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .details input ::placeholder{
+    margin: 5rem;
+  }
+
+  .details button{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    
+  }
