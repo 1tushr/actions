@@ -40,6 +40,9 @@
     text-decoration: none;
   }
 
+  .details h1{
+    text-align: center;
+  }
 
   .details{
     margin: 5rem;
@@ -50,12 +53,10 @@
     width: 48rem;
     height: 3rem;
     margin-bottom: 3rem;
-    text-align: center;
+    
   }
 
-  .details input ::placeholder{
-    margin: 5rem;
-  }
+ 
 
   .details button{
     display: inline-block;
